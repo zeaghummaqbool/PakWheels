@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  margin: 1rem auto 4rem;
+}
+
+.product--image {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+  margin: auto 1rem;
+  /* text-align: center; */
+  /* font-family: arial; */
+}
+
+.price {
+  color: grey;
+  /* font-size: 22px; */
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/* Featured New Cars */
+.topHeading{
+text-align: center;
+width: 531px;
+height: 83px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 82px;
+/* identical to box height */
+
+color: #061D33;
+
+}
+
+
+
+
+/* Rectangle 22 */
+.slidContainer{
+position: absolute;
+width: 1440px;
+height: 670px;
+left: calc(50% - 1440px/2);
+
+background: rgba(4, 115, 234, 0.3);
+opacity: 0.17;
+}
