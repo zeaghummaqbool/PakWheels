@@ -1,7 +1,6 @@
 import React from "react";
-import CardList from "./CardList";
 
-const SliderComp = () => {
+const FeaturedNew = () => {
   return (
     <div className="SliderComp">
       <div className="Slidwrap">
@@ -15,4 +14,4 @@ const SliderComp = () => {
   );
 };
 
-export default SliderComp;
+export default FeaturedNew;

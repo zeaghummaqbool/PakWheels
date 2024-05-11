@@ -1,0 +1,28 @@
+/* Featured New Cars */
+.topHeading{
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  }
+  
+  .SliderComp{
+  width: 100%;
+  background-color: #b4c7db4d ;
+  }
+  
+  .Slidwrap{
+  margin: 0 45px;
+  
+  }
+  
+  .textbotm{
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #0473EA;
+  
+  }

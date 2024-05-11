@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CardList from "./components/CardList";
 import BikeList from "./components/BikeList";
 import SliderComp from "./components/SliderComp";
+import ManageComp from "./components/Home/ManageComp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </div>
         <div>{/* <BikeList></BikeList> */}</div>
         <SliderComp />
+        <ManageComp />
       </div>
     </>
   );
