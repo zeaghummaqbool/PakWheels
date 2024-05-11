@@ -8,9 +8,12 @@ const Card = (props) => {
       <h7>{props.name}</h7>
       <p className="price">{props.price}</p>
       <p>{props.description}</p>
-      <p>
-        <button>Add to Cart</button>
-      </p>
+      <hr />
+      <div>
+        <span>Diesel</span>
+        <span>27,00</span>
+        <span>Automatic</span>{" "}
+      </div>
     </div>
   );
 };
